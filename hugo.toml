@@ -1,0 +1,9 @@
+baseURL = 'https://mullenixfiber.org'
+languageCode = 'en-us'
+title = 'Mullenix Fiber Petition'
+theme = 'ananke'
+
+SectionPagesMenu = "main"
+
+[params]
+background-color-class = "bg-dark-green"

@@ -1,0 +1,17 @@
+# https://taskfile.dev
+
+version: "3"
+
+tasks:
+  default:
+    cmds:
+      - echo "{{.GREETING}}"
+    silent: true
+
+  view:
+    desc: Open development server page
+    cmd: xdg-open http://localhost:1313/
+
+  server:
+    desc: Run development server
+    cmd: hugo server --buildDrafts
