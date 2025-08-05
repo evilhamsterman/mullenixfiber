@@ -17,3 +17,7 @@ disable = false
 [params]
 [params.ui]
 showLightDarkModeMenu = true
+
+[caches]
+[caches.images]
+dir = ':cacheDir/images'
